@@ -145,7 +145,7 @@ class _FlashcardScreenState extends State<FlashcardScreen> {
                   },
                   onPanEnd: (details) {
                     if (isTopCard) {
-                      if (cardOffset.dx.abs() > 100 ||
+                      if (cardOffset.dx.abs() > 110 ||
                           cardOffset.dy.abs() > 100) {
                         setState(() {
                           nextCard();
