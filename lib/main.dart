@@ -31,7 +31,7 @@ class FlashcardScreen extends StatefulWidget {
 class _FlashcardScreenState extends State<FlashcardScreen> {
   // Flashcard Data
   final List<String> flashcards = [
-    "My dear Moizza, A beautiful soul , With a beautidul heart.",
+    "My dear ---, A beautiful soul , With a beautidul heart.",
     "Who doesn't laugh much, but easily gets hurt.",
     "Yes she is fragile like a snow flake.",
     "I want to protect her from the heat of Society.",
@@ -91,7 +91,7 @@ class _FlashcardScreenState extends State<FlashcardScreen> {
       appBar: AppBar(
         centerTitle: true, // Center the title
         title: Text(
-          "Moizza My Love ",
+          "My Love ",
           style: GoogleFonts.greatVibes(fontSize: 30),
         ),
         backgroundColor: Colors.deepPurpleAccent,
